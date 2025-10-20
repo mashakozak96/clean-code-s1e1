@@ -13,7 +13,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .more-inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
 }
 ul {
@@ -121,12 +121,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-button.delete img {
+button.item__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.item__delete img:hover {
   transform: rotateZ(0);
 }
 
